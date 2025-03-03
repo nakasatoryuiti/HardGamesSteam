@@ -1,0 +1,84 @@
+/* レスポンシブデザイン */
+@media (max-width: 768px) {
+  
+
+  .Image-Combination {
+    margin: 6%;
+  }
+
+.Image-Combination img {
+    width: 96%;
+    top: 100px;
+  }
+
+.Image-Combination img:nth-child(1){
+    left: 2%;
+    top: 100px;
+    transform: scale(1);
+}
+  
+  .Image-Combination img:nth-child(2){
+    left: -73%;
+    top: 70px;
+    transform: scale(0.7);
+
+  }
+  
+  .Image-Combination img:nth-child(3){  
+    left: -211%;
+    top: 70px;
+    transform: scale(0.7);
+
+  }
+
+  .img-style {
+    width: 100%;
+    height: auto;
+    left: auto;
+  }
+
+  .iframe-style{
+    width:80%; 
+    height:auto;
+  }
+
+  .lem {
+    opacity: 0.5;
+    border-radius: 20px;
+    background-color: grey;
+    width: 60%;
+    height: 10px; /* スクロール効果を確認するための余白 */
+  }
+  
+  .insulation {
+    opacity: 0.9;
+    border-radius: 20px;
+    background-color: black;
+    width: 100%;
+    height: 10px; /* スクロール効果を確認するための余白 */
+  }
+  
+  
+
+  .square {
+    width: 90%;
+    height: 200px;
+    margin: 115px auto;
+    left: 0;
+}
+  
+
+  .mokuji-muve {
+    width: 100%;
+    left: 0;
+    margin: 0;
+    top: auto;
+  }
+
+  .Genreandpricesize {
+    font-size: 12px;
+    top: 0;
+    left: 0;
+    margin: 0;
+  }
+}
